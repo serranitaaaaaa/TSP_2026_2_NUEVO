@@ -508,10 +508,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eda70140b6fa1e6419c6660817a13b97, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  inputField: {fileID: 0}
-  chatText: {fileID: 0}
-  enviarButton: {fileID: 0}
-  unityChanAnimator: {fileID: 0}
+  inputField: {fileID: 1994877543}
+  chatText: {fileID: 1497144927}
+  enviarButton: {fileID: 784438242}
+  unityChanAnimator: {fileID: 1659792782}
   apiKey: 
 --- !u!4 &605238059
 Transform:
@@ -1342,6 +1342,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5501801747115825992, guid: d9e337dc6acbbda468331feab73252fa, type: 3}
   m_PrefabInstance: {fileID: 1659792777}
   m_PrefabAsset: {fileID: 0}
+--- !u!95 &1659792782 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 4127175938517750566, guid: d9e337dc6acbbda468331feab73252fa, type: 3}
+  m_PrefabInstance: {fileID: 1659792777}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1951089488
 GameObject:
   m_ObjectHideFlags: 0
@@ -1688,7 +1693,7 @@ GameObject:
   - component: {fileID: 2000880170}
   - component: {fileID: 2000880169}
   - component: {fileID: 2000880168}
-  - component: {fileID: 2000880167}
+  - component: {fileID: 2000880171}
   m_Layer: 0
   m_Name: ImageTarget
   m_TagString: Untagged
@@ -1696,25 +1701,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &2000880167
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2000880166}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 2000880169}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: finalfinal
-  mDatasetName: Vuforia/AR20262.xml
-  mCastedBehaviour: {fileID: 2000880169}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
 --- !u!114 &2000880168
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1785,7 +1771,7 @@ MonoBehaviour:
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
-  mPreview: {fileID: 2000880167}
+  mPreview: {fileID: 2000880171}
 --- !u!4 &2000880170
 Transform:
   m_ObjectHideFlags: 0
@@ -1803,6 +1789,25 @@ Transform:
   - {fileID: 1497144926}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2000880171
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2000880166}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 2000880169}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: finalfinal
+  mDatasetName: Vuforia/AR20262.xml
+  mCastedBehaviour: {fileID: 2000880169}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
