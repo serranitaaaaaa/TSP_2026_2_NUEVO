@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "447361710329",
+    "firebase_url": "https://p3tsp20262-9aadc-default-rtdb.firebaseio.com",
+    "project_id": "p3tsp20262-9aadc",
+    "storage_bucket": "p3tsp20262-9aadc.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:447361710329:android:4c42d58dda28b4849b0a28",
+        "android_client_info": {
+          "package_name": "com.ValentinaHuertas.P3TSP20262"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBVBrGNIOTfGFajS-4cWEDep_oBY6XHyMg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
